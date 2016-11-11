@@ -13,6 +13,7 @@
 		2B9DC7211DD1BFB100BAE38F /* PassData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DC71F1DD1BFB100BAE38F /* PassData.xcdatamodeld */; };
 		2B9DC7231DD1BFB100BAE38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9DC7221DD1BFB100BAE38F /* Assets.xcassets */; };
 		2B9DC7261DD1BFB100BAE38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9DC7241DD1BFB100BAE38F /* LaunchScreen.storyboard */; };
+		2B9DC7321DD1C66800BAE38F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DC7311DD1C66800BAE38F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2B9DC7221DD1BFB100BAE38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B9DC7251DD1BFB100BAE38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B9DC7271DD1BFB100BAE38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9DC7311DD1C66800BAE38F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2B9DC7181DD1BFB100BAE38F /* AppDelegate.swift */,
 				2B9DC71A1DD1BFB100BAE38F /* ViewController.swift */,
+				2B9DC7311DD1C66800BAE38F /* SecondViewController.swift */,
 				2B9DC71C1DD1BFB100BAE38F /* Main.storyboard */,
 				2B9DC7221DD1BFB100BAE38F /* Assets.xcassets */,
 				2B9DC7241DD1BFB100BAE38F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9DC7321DD1C66800BAE38F /* SecondViewController.swift in Sources */,
 				2B9DC71B1DD1BFB100BAE38F /* ViewController.swift in Sources */,
 				2B9DC7211DD1BFB100BAE38F /* PassData.xcdatamodeld in Sources */,
 				2B9DC7191DD1BFB100BAE38F /* AppDelegate.swift in Sources */,
@@ -301,6 +305,7 @@
 				2B9DC72C1DD1BFB100BAE38F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
